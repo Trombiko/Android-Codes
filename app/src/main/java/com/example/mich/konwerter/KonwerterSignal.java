@@ -73,9 +73,10 @@ public class KonwerterSignal extends MainActivity{
 
                                 float i = Float.parseFloat(String.valueOf(editText.getText()));
                                 if (i >= 4 && i <= 20) {
-                                    float x = (i - 4) * 200 / 16;
+                                    float x = (i - 4) * 100 / 16;
                                     textView.setText(x + "°C");
                                     //TODO zaokraglanie liczby do 2 miejsc po przecinku
+                                    //TODO moze event - wyswietlanie w textView tego co od razu pojawi się w editText
                                 }else
                                     {
                                         Toast.makeText(KonwerterSignal.this, "Podaj liczbę z zakresu 4-20 [mA]", Toast.LENGTH_SHORT).show();
