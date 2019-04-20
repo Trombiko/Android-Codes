@@ -16,8 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KonwerterMasa"></activity>
-        <activity android:name=".KonwerterSignal"></activity>
+        <activity android:name=".KonwerterDlugosci"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity android:name=".KonwerterSignal"
+            android:windowSoftInputMode="adjustResize">
+
+        </activity>
     </application>
 
 </manifest>

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         buttonMasa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, KonwerterMasa.class);
+                Intent intent = new Intent(MainActivity.this, KonwerterDlugosci.class);
                 startActivity(intent);
             }
         });
